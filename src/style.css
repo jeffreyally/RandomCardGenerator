@@ -13,4 +13,22 @@
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardtop {
+  display: flex;
+  justify-content: left;
+}
+
+.cardmiddle {
+  display: flex;
+  justify-content: center;
+}
+
+.cardbottom {
+  display: flex;
+  justify-content: right;
 }
