@@ -32,3 +32,12 @@
   display: flex;
   justify-content: right;
 }
+.topleftsuit {
+  font-size: 3vmax;
+}
+.middlenumber {
+  font-size: 3vmax;
+}
+.bottomrightsuit {
+  font-size: 3vmax;
+}
