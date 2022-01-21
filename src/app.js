@@ -25,13 +25,14 @@ function randomInt(min, max) {
 
 var numForSuit = randomInt(0, 3);
 var randomIndex = randomInt(0, 12);
-var arrayOfSuitsinHTML = ["&#9830", "&#9827", "&#9824", "&#9829"];
+var arrayOfSuitsinHTML = ["&#9827", "&#9824", "&#9830", "&#9829"]; //24=spade,27=club,30=diamond,29=heart
 var arrayofValuesforCard = [2, 3, 4, 5, 6, 7, 8, 9, 10, "K", "Q", "J", "A"];
-
-if (randomInt(1, 2) == 1) {
+console.log(numForSuit);
+if (numForSuit == 3) {
   document.querySelector(".topleftsuit").style.color = "red";
   document.querySelector(".bottomrightsuit").style.color = "red";
-} else {
-  document.querySelector(".topleftsuit").style.color = "black";
-  document.querySelector(".bottomrightsuit").style.color = "black";
+}
+if (numForSuit == 2) {
+  document.querySelector(".topleftsuit").style.color = "red";
+  document.querySelector(".bottomrightsuit").style.color = "red";
 }
